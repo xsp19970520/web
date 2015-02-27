@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title>哔哩哔哩弹幕网站注册</title>
+	<link rel="stylesheet" type="text/css" href="../Css/register.css">
+</head>
+<body>
+<div class="warp">
+	<div id="header">
+		<img src="../img_register/mainLogo.png" 
+			class="Logo">
+
+		<a href="http://www.bilibili.com/" class="main">主站</a>
+		<a href="http://h.bilibili.com/" class="draw">画友</a>
+		<a href="http://game.bilibili.com/" class="game">游戏中心</a>
+		<a href="http://live.bilibili.com/list/live.html" class="direct">直播</a>
+		<a href="http://app.bilibili.com/" class="mobile">移动客户端</a>
+	</div>
+	<div id="header_other">
+		<img src="../img_register/main.png">
+	</div>
+	<div id="contain" >
+		<div class="leptonema"></div>
+		<font class="register">注册</font>
+		<div class="leptonema2"></div>
+		<div class="form">
+		<select name="country_code" class="country_code">           
+				    <option value="1">中国大陆</option><option value="2">澳门特区</option>
+                    <option value="3">台湾</option>
+                    <option value="4">美国</option>
+                   	<option value="5">香港</option>
+                   	<option value="6">比利时</option>
+                    <option value="7">澳大利亚</option>
+                    <option value="8">法国</option>
+                    <option value="9">加拿大</option>
+                    <option value="10">日本</option>
+                    <option value="11">新加坡</option>
+        </select>
+        
+		<input type="text" id="new_phone" value="填写常用的手机号" 
+				onfocus="if(value=='填写常用的手机号') {value=''}" onblur="if (value=='') {value='填写常用的手机号'}"> 
+		<p><a href="" class="email">用邮箱注册></a></p>	
+
+		<input type="text" class="mobliephone" value="手机验证码" 
+				onfocus="if(value=='手机验证码') {value=''}" onblur="if (value=='') {value='手机验证码'}"> 
+		<input type="Button" value="点击获取" class="button">
+
+		<input type="text" class="name" value="昵称 （例 ：哔哩哔哩）" 
+				onfocus="if(value=='昵称 （例 ：哔哩哔哩）') {value=''}" onblur="if (value=='') {value='昵称 （例 ：哔哩哔哩）'}">
+ 			<input class="user_id_password" type="password" 
+						name="userpwd" placeholder="密码（6-16个字符组成，区分大小写）" jvmethod="checkPwd"/>
+
+			<label style="height: 25px;">
+			<input class="m-r-10" jvmethod="checkAgree"
+						name="agree"  type="checkbox" value="1" />
+			<span class="agree">我已同意</span>
+			<a target="_blank" href="https://account.bilibili.com/register/licence" class="xieyi">《bilibili网会员注册协议》</a>
+			</label>
+
+			<input type="Button" value="注册" class="register_bt"/>
+			<p><a href="https://account.bilibili.com/login" class="havecount">已有账号，直接登录></a></p>
+	</div>
+
+<div id="footer">
+	<ul class="boston-postcards">
+		<li>
+			<a href="http://www.bilibili.com/html/aboutUs.html" >关于哔哩哔哩动画</a><br>
+			<a href="http://www.bilibili.com/html/contact.html">联系我们</a> | <a
+			href="http://www.bilibili.com/html/join.html">加入我们</a><br> 官方微博：<a
+			target="_blank" href="http://weibo.com/bilibiliweb">新浪微博</a> | <a
+			target="_blank" href="http://t.qq.com/bilibiliweb">腾讯微博</a><br> <a
+			href="http://www.bilibili.com/html/duty.html">资源免责声明</a>
+			</li>
+		</ul>
+		<ul class="boston-postcards2">
+		<li>
+			<a href="http://www.bilibili.com/video/av271/">弹幕测试</a> | <a
+			href="http://www.bilibili.com/video/av120040/">高级弹幕</a><br> <a
+			href="http://www.bilibili.com/html/help.html">全站使用说明</a> | <a
+			href="http://docs.bilibili.com/wiki/FAQ">常见问题（FAQ）</a><br> <a
+			target="_blank" href="http://9ch.co/f61,1.html">建议和BUG汇报</a><br> <a
+			target="_blank" href="http://www.bilibili.com/html/copyright.html">侵权申诉</a>
+		</li>
+		</ul>
+		<ul  class="boston-postcards3">
+		<li><a href="http://www.bilibili.com/lottery">活动专题页</a> | <a
+			href="http://www.bilibili.com/rss.html">RSS订阅</a><br> <a
+			href="http://www.bilibili.com/html/cele.html">哔哩哔哩名人堂</a><br> <a
+			href="http://www.bilibili.com/html/bizhi.html">壁纸下载</a><br> <a
+			href="http://www.bilibili.com/html/userdel_list.html">补档认领处</a>
+			</li>
+		</ul>
+		<ul class="boston-postcards4">
+		<li >
+			<a target="_blank" href="http://h.bilibili.com/">画友 - beta</a><br>
+			<a target="_blank" href="http://9ch.co/forum.php">第九频道</a><br> <a
+			target="_blank" href="http://comisc.qq.com/news/">资讯</a>
+		</li>
+	</ul>
+		<img src="img_register/Logo.png" class="company">
+		<div class="last" >
+			<p>广播电视节目制作经营许可证：（沪）字第510号 网络文化经营许可证：沪网文【2011】0602-063</p>
+			<p>互联网ICP备案：沪ICP备13044862号-1　信息网络传播视听节目许可证：0910417</p>
+			<p>互联网ICP备案：沪ICP备13044862号-1 信息网络传播视听节目许可证：0910417</p>
+			<p>声明:本站不提供任何视听上传服务，所有内容均来自正规视频站点所提供的公开引用资源</p>
+
+		</div>
+	
+
+
+	</div>	 
+</div>	
+</body>
+</html>

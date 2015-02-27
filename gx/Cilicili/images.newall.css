@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	overflow-y:scroll;
+	font-size:100%;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%
+}
+html,body{
+	margin:0;
+	padding:0;
+}
+.main_body {
+	width:1120px; 
+	margin:0px auto; 
+}
+
+.banner_bg {
+	width:100%;
+	height:400px;
+	background-image: url(http://i2.hdslb.com/u_user/images/bg.jpg);
+	background-position:50% 50%;
+}
+.twotwo {
+	height: 350px;
+	width: 474px;
+	margin-top: 50px;
+	margin-left: 65px;
+	background-image: url(http://i0.hdslb.com/u_user/images/22.png);
+	z-index: 99;
+	float: left;
+	position: absolute;
+	animation:move-right 3s forwards;
+	-moz-animation:move-right 3s forwards;
+    -webkit-animation:move-right 3s forwards;    
+}
+.code {
+	height: 300px;
+	width: 300px;
+	margin-top:50px;
+	margin-left:400px;
+	position: absolute;
+	float: left;
+	background-image: url(http://i0.hdslb.com/u_user/images/2code.png);
+	z-index: 19;
+	animation:hidden 3s forwards;
+	-moz-animation:hidden 3s forwards;
+	-webkit-animation:hidden 3s forwards;		
+}
+.threethree {
+	height: 400px;
+	width: 552px;
+	margin-left: 720px;
+	position: absolute;
+	float: left;
+	background:url(http://i0.hdslb.com/u_user/images/33.png) no-repeat 0 -60px;
+	z-index: 20;
+	animation:move-left 4s forwards;
+	-moz-animation:move-left 4s forwards;		
+	-webkit-animation:move-left 4s forwards;
+}
+
+@-webkit-keyframes hidden {
+    0%{opacity: 0;}
+    50% {opacity: 0; }
+    100%{opacity:1;}
+}
+@-webkit-keyframes move-right {
+    0%{margin-left: 0px;opacity: 0;}
+    100%{margin-left: 65px;opacity:1;}
+} 
+@-webkit-keyframes move-left {
+    0%{opacity: 0;margin-left: 785px;}
+    100%{opacity:1;margin-left: 720px;}
+}

@@ -1,0 +1,236 @@
+body{
+	margin: 0;
+	font-size: 14px;
+}
+
+
+ul{
+	display: inline;
+	margin:0px;
+	padding:0px;
+}
+
+
+ul li{
+	display: inline;
+	list-style-type: none;
+
+}
+
+
+div{
+	display: inline;
+	width:150px;
+}
+
+
+.shangchuantupian{
+	width:175px;
+	height:100px;
+	background-color: blue;
+}
+
+
+
+#tops{
+	display: block;
+	width:100%;
+	
+	background-color: rgb(241,241,241);
+}
+
+
+
+.topL{
+
+}
+
+.topR{
+	position: absolute;
+	margin-left:100px;
+}
+
+
+.pic{
+	display: block;
+	width: 100%;
+	height:60px;
+	background-image: url(../Pic/upBg.jpg);
+}
+
+
+.picL{
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	background-image: url(../Pic/logo.png)
+}
+
+.picR{
+	display: inline-block;
+	float: right;
+	width: 115px;
+	height: 35px;
+	background-image: url(../Pic/2233.png)
+}
+
+
+#main{
+	display: block;
+	width: 800px;
+	position: absolute;
+	margin-left:600px; 
+}
+
+
+.end{
+	display: block;
+	width: 800px;
+	
+}
+
+#mainT{
+	display: block;
+}
+
+
+.foot{
+	display: block;
+	width: 800px;
+}
+
+
+
+
+.Rtip{
+	font-size: 18px;
+	font-weight:bold; 
+}
+
+.must{
+	color:red;
+}
+
+
+
+
+.Sline{
+	height:880px;
+	float:left;
+	position: absolute;
+	margin-left:150px;
+}
+
+.left{
+	width: 150px;
+}
+
+
+.right{
+
+	position: absolute;
+	margin-left: 130px;
+	margin-top: -30px;
+}
+
+#shangchuantupian{
+
+	position: absolute;
+	margin-top: -20px;
+	width:130px;
+	height:60px;
+	background-color: blue;
+}
+
+
+
+#biaoqianR{
+	width:600px;
+}
+
+#biaoR{
+
+	display: inline;
+}
+
+
+#leixin{
+	width:80px;
+	height: 30px;
+	font-size:10px; 
+	background-color: rgb(43,153,206);
+}
+
+
+#jianjieL{
+	height: 220px;
+	width:900px;
+}
+
+
+
+#jianjieR{
+	position: absolute;
+	margin-left: 150px;
+	margin-top: -60px;
+	width:350px;
+	height:80px;
+}
+
+
+
+
+
+#foot{
+	border-style:solid;
+}
+
+
+#tijiao{
+	display: block;
+	text-align: center;
+	width: 90px;
+	height: 30px;
+	background-color: rgb(0,161,214);
+}
+
+#tougaoneirongR{
+	margin: 0;
+	font-size:12px;
+	width:700px;
+	position: absolute;
+	margin-left: 96px;
+	margin-top: -100px;
+}
+
+
+
+
+#p1{
+	position: absolute;
+	margin-left: 60px;
+
+}
+
+
+#p2{
+	position: absolute;
+	margin-left: 280px;
+}
+
+#p3{
+	position: absolute;
+	margin-left:430px;
+	width: 220px;
+}
+
+
+
+
+#end{
+	display: block;
+	width: 800px;
+	position: absolute;
+	margin-left:600px; 
+	margin-top:1100px;
+}

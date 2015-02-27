@@ -1,0 +1,257 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	text-align: center;
+}
+html{
+	
+	font-size: "微软雅黑";
+}
+.warp{
+	text-align: center;
+	width: 1366px;
+}
+#header{
+	background-color: rgb(241,241,241);
+	height: 45px;
+	width: 100%;
+}
+.Logo{
+	float: left;
+	margin-top: 10px;
+	margin-left: 160px;
+}
+.main{
+	float: left;
+	margin-left: 16px;
+	font-size: 15px;
+	margin-top: 10px;
+	color:#000000;
+	text-decoration: none;
+}
+.draw{
+	float: left;
+	margin-top: 10px;
+	margin-left: 40px;
+	font-size: 15px;
+	color: #000000;
+	text-decoration: none;
+}
+.game{
+	float: left;
+	margin-top: 10px;
+	margin-left: 40px;
+	font-size: 15px;
+	color: #000000;
+	text-decoration: none;
+}
+.direct{
+	float: left;
+	margin-top: 10px;
+	margin-left: 40px;
+	font-size: 15px;
+	color: #000000;
+	text-decoration: none;
+}
+.mobile{
+	float: left;
+	margin-top: 10px;
+	margin-left: 40px;
+	font-size: 15px;
+	color: #000000;
+	text-decoration: none;
+}
+#header_other{
+	float: left;
+	width: 100%;
+}
+.leptonema{
+	float: left;
+	width: 430px;
+	height: 3px;
+	background-color: rgb(241,241,241);
+	margin-left: 187px;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.register{
+	font-size: 40px;
+	font-weight: bolder;
+	margin-top: 7px;
+	margin-left: 20px;
+	float: left;
+	overflow: hidden;
+}
+.leptonema2{
+	float: left;
+	width: 430px;
+	height: 3px;
+	background-color: rgb(241,241,241);
+	margin-left: 20px;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.form{
+	float: left;
+	width: 425px;
+	height: 425px;
+	
+	margin-top: 30px;
+	margin-left: 450px;
+}
+.country_code{
+	float: left;
+	width: 90px;
+	height: 43px;
+	margin-left: 0px;
+	margin-top: 0px;
+	border-radius: 2px;
+	border-color: rgb(223,223,223);
+}
+#new_phone{
+	float: left;
+	width: 320px;
+	height: 40px;
+	margin-left: 8px;
+	margin-top: 0px;
+	color: rgb(165,165,165);
+}
+.email{
+	float: left;
+	font-size: 15px;
+	color: rgb(0,163,213);
+	margin-left: 340px;
+	margin-top: 10px;
+	text-decoration: none;
+}
+.mobliephone{
+	float: left;
+	margin-top: 10px;
+	margin-left: 0px;
+	width: 330px;
+	height:40px;
+	color: rgb(165,165,165);
+}
+.button{
+	border: none;
+	background: rgb(245,245,245);
+	height: 44px;
+	width: 90px;
+	float: left;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+.button:hover{
+	color: red;
+}
+.name{
+	float: left;
+	width: 100%;
+	height: 40px;
+	margin-top: 40px;
+	color: rgb(165,165,165);
+}
+.user_id_password{
+	float: left;
+	width: 100%;
+	height: 40px;
+	margin-top: 40px;
+	color: rgb(165,165,165);
+}
+.m-r-10{
+	float: left;
+	margin-top: 17px;
+	margin-left: 0px;
+}
+.agree{
+	float: left;
+	margin-top: 17px;
+	margin-left: 0px;
+	color: #000000;
+	font-size: 10px;
+}
+.xieyi{
+	float: left;
+	margin-top: 15px;
+	margin-left: 0px;
+	font-size: 15px;
+	color: rgb(53,163,214);
+}
+.register_bt{
+	background-color: rgb(221,221,221);
+	float: left;
+	margin-top: 40px;
+	margin-left: 0px;
+	text-align: center;
+	width: 425px;
+	height: 40px;
+	border: none;
+	color: #ffffff;
+}
+.havecount{
+	float: left;
+	font-size: 15px;
+	color: rgb(0,163,213);
+	margin-left: 270px;
+	margin-top: 10px;
+	text-decoration: none;
+}
+#footer{
+	float: left;
+	margin-top: 180px;
+	background-color: rgb(250,250,250);
+	height: 320px;
+	width: 1366px;
+}
+.boston-postcards{
+	float: left;
+	margin-left: 200px;
+	margin-top: 25px;
+}
+.boston-postcards2{
+	float: left;
+	margin-left: 75px;
+	margin-top: 25px;
+}
+.boston-postcards3{
+	float: left;
+	margin-left: 75px;
+	margin-top: 25px;
+}
+.boston-postcards4{
+	float: left;
+	margin-left: 75px;
+	margin-top: 25px;
+}
+li{
+	line-height: 30px;
+	font-size: 13px;
+	text-decoration: none;
+}
+a{
+	color: #000000;
+	text-decoration: none;
+}
+.company{
+	float: left;
+	margin-left: 215px;
+	margin-top:55px;
+}
+.last{
+	float: left;
+	margin-left: 2px;
+	margin-top: 35px;
+}
+p{
+	font-size: 10px;
+	text-align: left;
+	line-height: 20px;
+}
+a:hover{
+	color: red;
+}
+
+
+
